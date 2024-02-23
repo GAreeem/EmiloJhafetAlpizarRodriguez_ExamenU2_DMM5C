@@ -10,9 +10,8 @@ const Tab = createBottomTabNavigator();
 const BottomTab = () => {
   return (
     <Tab.Navigator initialRouteName="Posts"
-    activeColor="#f0edf6"
-    inactiveColor="#3e2465"
-    barStyle={{ backgroundColor: '#694fad' }}
+
+    barStyle={{ backgroundColor: '#000' }}
      >
       <Tab.Screen
     

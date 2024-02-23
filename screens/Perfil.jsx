@@ -54,13 +54,13 @@ const Perfil = () => {
           <Image
             source={require("../assets/padoruSubaru.jpg")}
             style={{
-              width: 100,
-              height: 70,
+              width: 80,
+              height: 80,
               borderRadius: 100,
               marginLeft: 10,
             }}
           />
-          <Text style={{ color: "white", marginLeft: 40 }}> Emilio</Text>
+          <Text style={{ color: "white", marginLeft: 35 }}> Emilio</Text>
         </View>
 
         <View>
@@ -72,7 +72,7 @@ const Perfil = () => {
           <Text style={{ color: "white" }}> Seguidores</Text>
         </View>
         <View>
-          <Text style={{ color: "white" }}> 250</Text>
+          <Text style={{ color: "white" ,marginLeft:10}} > 250</Text>
           <Text style={{ color: "white" }}> Seguidos</Text>
         </View>
 
